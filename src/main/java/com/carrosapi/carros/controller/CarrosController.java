@@ -20,9 +20,4 @@ public class CarrosController {
 	public List<CarrosDomain> showAllCarros() {
 		return carrosRepository.findAll();
 	}
-	
-	@RequestMapping(value = "/classificaCarros", method = RequestMethod.GET)
-	public List<CarrosDomain> classificaCarros() {
-		return null;
-	}
 }
