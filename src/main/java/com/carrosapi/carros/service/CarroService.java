@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Service;
 
 import com.carrosapi.carros.models.CarrosDomain;
-import com.carrosapi.carros.repository.CarrosRepository;
 
 @Service
 public class CarroService  {
@@ -20,7 +19,6 @@ public class CarroService  {
 	}
 	
 	public List<CarrosDomain> carrosValues() {
-
 		
 		List<CarrosDomain> listaCarros = new ArrayList<CarrosDomain>();
 		CarrosDomain carrosDomain = new CarrosDomain();
