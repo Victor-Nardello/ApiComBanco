@@ -1,6 +1,7 @@
 package com.carrosapi.carros.service;
 
 import static org.junit.Assert.assertEquals;
+//import static org.hamcrest.Matchers.;
 
 import java.util.List;
 
@@ -33,5 +34,11 @@ public class CarroServiceTest {
 		assertEquals(carrosDomainValue.getNome(), carrosDomain.get(0).getNome());
 		assertEquals(carrosDomainValue.getModelo(), carrosDomain.get(0).getModelo());
 		assertEquals(carrosDomainValue.getAno(), carrosDomain.get(0).getAno());
+	}
+	
+	@Test
+	public void carrosValudesTest() {
+		
+		
 	}
 }
