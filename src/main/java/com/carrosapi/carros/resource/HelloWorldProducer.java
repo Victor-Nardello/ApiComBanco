@@ -9,7 +9,7 @@ import javax.jms.TextMessage;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 
-public class HelloWorldProducer implements Runnable{
+public class HelloWorldProducer implements Runnable {
 
 	public void run() {
 		try {
