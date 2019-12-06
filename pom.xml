@@ -63,24 +63,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-<<<<<<< HEAD
-			<groupId>org.hamcrest</groupId>
-			<artifactId>java-hamcrest</artifactId>
-			<version>2.0.0.0</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 		</dependency>
-
-=======
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-		</dependency>
-<<<<<<< HEAD
->>>>>>> ed62527bc00182c0cce66c6b7f624ee4409715bb
-=======
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-activemq</artifactId>
@@ -94,7 +79,6 @@
 			<artifactId>activemq-kahadb-store</artifactId>
 			<scope>runtime</scope>
 		</dependency>
->>>>>>> add2f8c7038441c5f109bd2601245fb1c8f88915
 	</dependencies>
 
 	<build>
