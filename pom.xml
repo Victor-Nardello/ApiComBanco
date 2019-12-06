@@ -78,7 +78,23 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 		</dependency>
+<<<<<<< HEAD
 >>>>>>> ed62527bc00182c0cce66c6b7f624ee4409715bb
+=======
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-activemq</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-kahadb-store</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+>>>>>>> add2f8c7038441c5f109bd2601245fb1c8f88915
 	</dependencies>
 
 	<build>
