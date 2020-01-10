@@ -35,10 +35,4 @@ public class CarroServiceTest {
 		assertEquals(carrosDomainValue.getModelo(), carrosDomain.get(0).getModelo());
 		assertEquals(carrosDomainValue.getAno(), carrosDomain.get(0).getAno());
 	}
-	
-	@Test
-	public void carrosValudesTest() {
-		
-		
-	}
 }
