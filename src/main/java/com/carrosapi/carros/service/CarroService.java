@@ -101,7 +101,7 @@ public class CarroService  {
 		
 		classificaCarros
 		.stream()
-		.filter(n -> n.getNome()
+		.filter(n -> n.getNome().toUpperCase()
 		.startsWith("G"))
 		.collect(Collectors.toList());
 		
